@@ -5,6 +5,16 @@ CREATE TABLE `CURSO`(
 
 INSERT INTO `CURSO` (`Curso_asign`) VALUES ('FUNDAMENTOS DE COMPUTACIÓN');
 
+INSERT INTO `CURSO` (`Curso_asign`) VALUES ('CIENCIAS DE LA COMPUTACION II');
+INSERT INTO `CURSO` (`Curso_asign`) VALUES ('DESARROLLO BASADO EN PLATAFORMAS');
+INSERT INTO `CURSO` (`Curso_asign`) VALUES ('ARQUITECTURA DE COMPUTADORES');
+
+INSERT INTO `CURSO` (`Curso_asign`) VALUES ('BASE DE DATOS II');
+
+INSERT INTO `CURSO` (`Curso_asign`) VALUES ('REDES Y COMUNICACIONES');
+
+INSERT INTO `CURSO` (`Curso_asign`) VALUES ('METODOS FORMALES');
+
 CREATE TABLE `HORARIO`(
 	`idHorario` INT PRIMARY KEY AUTO_INCREMENT,
 	`Hora_inicio` VARCHAR(45) NOT NULL,
@@ -18,6 +28,13 @@ INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('12:20','14:00
 INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('8:50','10:30','VIERNES');
 INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('14:00','15:40','LUNES');
 INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('15:50','15:40','MIERCOLES');
+
+INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('14:00','15:40','VIERNES');
+INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('16:40','18:30','JUEVES');
+
+INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('17:40','19:20','LUNES');
+INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('10:40','12:20','JUEVES');
+INSERT INTO `HORARIO`(`Hora_inicio`, `Hora_fin`, `Fecha`) VALUES ('10:40','12:20','VIERNES');
 
 CREATE TABLE `GRADO`(
 	`idGrado` INT PRIMARY KEY AUTO_INCREMENT,
@@ -47,6 +64,10 @@ CREATE TABLE `PROFESOR`(
 );
 
 INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('*Nombre del docente*', '*apellido del docente*');
+INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('Álvaro Henry', 'Mamani Aliaga');
+INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('Pedro Alex', 'Rodriguez Gonzales');
+INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('Edgar', 'Sarmiento Calisaya');
+
 
 CREATE TABLE `ASIGNATURA`(
 	`idAsignatura` INT PRIMARY KEY AUTO_INCREMENT,
