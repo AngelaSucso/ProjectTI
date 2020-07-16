@@ -91,6 +91,12 @@ INSERT INTO `ASIGNATURA`(`idCurso`, `idHorario`, `idGrado`, `idGrupo`, `idProfes
 INSERT INTO `ASIGNATURA`(`idCurso`, `idHorario`, `idGrado`, `idGrupo`, `idProfesor`, `Capacidad`) VALUES (1,5,1,3,1,25);
 INSERT INTO `ASIGNATURA`(`idCurso`, `idHorario`, `idGrado`, `idGrupo`, `idProfesor`, `Capacidad`) VALUES (1,6,1,3,1,25);
 
+INSERT INTO `ASIGNATURA`(`idCurso`, `idHorario`, `idGrado`, `idGrupo`, `idProfesor`, `Capacidad`) VALUES (4,7,2,1,3,25);
+INSERT INTO `ASIGNATURA`(`idCurso`, `idHorario`, `idGrado`, `idGrupo`, `idProfesor`, `Capacidad`) VALUES (4,8,2,2,3,25);
+
+INSERT INTO `ASIGNATURA`(`idCurso`, `idHorario`, `idGrado`, `idGrupo`, `idProfesor`, `Capacidad`) VALUES (2,9,2,1,2,25);
+INSERT INTO `ASIGNATURA`(`idCurso`, `idHorario`, `idGrado`, `idGrupo`, `idProfesor`, `Capacidad`) VALUES (2,10,2,2,2,25);
+
 CREATE TABLE `ALUMNO`(
 	`idAlumno` INT PRIMARY KEY AUTO_INCREMENT,
 	`C.U.I.` INT(10) NOT NULL,
