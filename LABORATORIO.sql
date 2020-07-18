@@ -63,7 +63,7 @@ CREATE TABLE `PROFESOR`(
 	`Apellidos` VARCHAR(60) NOT NULL
 );
 
-INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('*Nombre del docente*', '*apellido del docente*');
+INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('Eliana', 'Adriazola Herrera');
 INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('Álvaro Henry', 'Mamani Aliaga');
 INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('Pedro Alex', 'Rodriguez Gonzales');
 INSERT INTO `PROFESOR`(`Nombres`, `Apellidos`) VALUES ('Edgar', 'Sarmiento Calisaya');
